@@ -1,4 +1,4 @@
-# Guide to Running Automated Tests with Playwright
+# Guide to Running Absensi Automatis with Playwright
 
 Follow the steps below to run automated tests using Playwright.
 

@@ -33,7 +33,7 @@ test('absen masuk',{ tag: '@clockin' }, async ({ page, context }) => {
 
   const clockInSpan = page.locator('span', { hasText: 'Clock In' });
   await expect(clockInSpan).toBeVisible();
-  // clockInSpan.click();
+  clockInSpan.click();
 });
 
 test('absen keluar',{ tag: '@clockout' }, async ({ page, context }) => {
