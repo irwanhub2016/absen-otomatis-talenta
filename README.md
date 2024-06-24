@@ -1,4 +1,4 @@
-# Guide to Running Absensi Automatis with Playwright
+# Guide to Running Absensi Otomatis with Playwright
 
 Follow the steps below to run automated tests using Playwright.
 
@@ -27,6 +27,9 @@ To hardcode the latitude and longitude values in the `{ latitude, longitude } = 
 // Hardcoded latitude and longitude values
 const latitude = -62434;
 const longitude = 1054.3434;
+
+// disable with comment for this code if you hard code the value
+const { latitude, longitude } = await getGeolocation();
 
 // Assigning hardcoded values to latitude and longitude variables
 { latitude, longitude } = { latitude, longitude };
